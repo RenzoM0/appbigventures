@@ -1,0 +1,94 @@
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  padding: 0 100px; 
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  width: 100%; 
+  text-align: center;
+}
+
+.footer-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-tabs {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.tab ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tab li {
+  margin: 5px 0;
+}
+
+.tab a {
+  text-decoration: none;
+  color: #333;
+}
+
+.tab a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+    /* Stack logo and tabs on smaller screens */
+    align-items: center;
+  }
+
+  .footer-tabs {
+    flex-direction: column;
+    /* Stack the tabs as well on smaller screens */
+    width: 100%;
+  }
+
+  .tab {
+    margin-bottom: 20px;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+}

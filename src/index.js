@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-function App() {
-  return (
-    <h1>Welcome to Big2ventures</h1>
-  )
-}
+import App from './App';
+//import './index.css';     
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Render main App component
 root.render(
   <React.StrictMode>
     <App />
