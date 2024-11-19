@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css'; // Styling
+import './Footer.css'; // Import Styling
 
 const Footer = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Partners.css';  // Import the CSS styles
+import './Partners.css';  // Import styling
 
 // Images companies import
 import AlternateBank from '../assets/companies/AlternaBank_logo.png';

@@ -49,7 +49,7 @@ function Home() {
         </div>
         <Link className="btn btn-primary" to="/services">Learn more</Link>
       </div>
-      {/* Partners Section */}
+      {/* Partners + Sector Sections */}
       <Partners />
     </>
   );

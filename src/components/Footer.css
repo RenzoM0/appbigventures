@@ -7,14 +7,14 @@
 .footer-inner {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; 
-  flex-wrap: wrap; 
-  padding: 0 100px; 
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 100px;
 }
 
 .footer-logo {
   margin-bottom: 20px;
-  width: 100%; 
+  width: 100%;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@
   text-decoration: underline;
 }
 
-/* Responsive Styles */
+/* Responsive style for smaller screens */
 @media (max-width: 768px) {
   .footer-inner {
     flex-direction: column;
