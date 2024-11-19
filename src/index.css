@@ -1,0 +1,45 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0; /* Reset margin to 0 */
+  }
+  
+  #root {
+    display: flex; /* Enabling flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  main {
+    flex: 1; /* Allow main to grow */
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+  }
+  .container {
+    max-width: 1200px; /* Set a maximum width for your content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 15px; /* Add some padding on smaller screens */
+}
+
+.row {
+    margin: 0; /* Remove negative margins that could cause wrapping */
+}
