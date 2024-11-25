@@ -7,6 +7,7 @@ import pitchDecksImage from '../assets/pitch-decks.jpeg';
 import valuationsImage from '../assets/valuations.jpeg';
 import businessPlanningImage from '../assets/business-planning.jpeg';
 import capitalizationTablesImage from '../assets/capitalization-tables.jpeg';
+import Reviews from '../components/Reviews';
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ function Home() {
         <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
       {/* Services Section */}
+      <div className = "container">
       <div className="container marketing">
         <h1>Our services</h1>
         <p>From crafting compelling pitch decks to building financial models - we are your trusted and dedicated partner every step of the way when it's time to confidently and effectively ask for the capital you need.</p>
@@ -51,6 +53,8 @@ function Home() {
       </div>
       {/* Partners + Sector Sections */}
       <Partners />
+      <Reviews />
+      </div>
     </>
   );
 };

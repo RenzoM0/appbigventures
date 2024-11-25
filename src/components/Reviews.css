@@ -1,0 +1,82 @@
+/* Reviews.css */
+
+.slideshow-container {
+    position: relative;
+    overflow: hidden; /* Prevent overflow of slides */
+    width: calc(100% - 55px); /* Full width minus left/right padding */
+    margin: 20px 0 20px 35px; /* Top/bottom 20px and left margin of 35px */
+}
+
+.mySlides {
+    display: flex; /* Display reviews in a row for sliding effect */
+    transition: transform 0.5s ease; /* Smooth slide transition */
+}
+
+.review-box {
+    min-width: 100%; /* Each review should take full width of the container */
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Match rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 20px; /* Space between the reviews */
+}
+
+/* Navigation buttons styling */
+.nav-buttons {
+    text-align: center; /* Center the buttons */
+    margin-top: 20px; /* Add space above the buttons */
+}
+
+.prev, .next {
+    cursor: pointer;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    user-select: none;
+    margin: 0 10px; /* Space between buttons */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* Dot indicators */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+q {
+    font-style: italic; /* Italicize quotes */
+}
+
+.author {
+    color: cornflowerblue; /* Author color */
+}
+
+/* Add styling for roles */
+.role {
+    color: #555; /* Example color for the role */
+}
