@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Partners from '../components/Partners';
+import Reviews from '../components/Reviews';
 
 // Images services import
 import pitchDecksImage from '../assets/pitch-decks.jpeg';
 import valuationsImage from '../assets/valuations.jpeg';
 import businessPlanningImage from '../assets/business-planning.jpeg';
 import capitalizationTablesImage from '../assets/capitalization-tables.jpeg';
-import Reviews from '../components/Reviews';
+
 
 function Home() {
   return (
